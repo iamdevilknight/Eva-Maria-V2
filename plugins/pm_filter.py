@@ -518,9 +518,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-## Pattishow Stars Here
-
-elif query.data == "restrictions":
+## Pattishow Stars Here ##
+   elif query.data == "restrictions":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
         ]]
@@ -530,7 +529,7 @@ elif query.data == "restrictions":
             reply_markup=reply_markup,
             parse_mode='html'
         )
-elif query.data == "greetings":
+   elif query.data == "greetings":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
         ]]
@@ -541,7 +540,7 @@ elif query.data == "greetings":
             parse_mode='html'
         )
 
-## Pattishow Ends Here
+## Pattishow Ends Here ##
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
