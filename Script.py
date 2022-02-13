@@ -122,19 +122,32 @@ Name - {}
 
     RESTRICTION_TEXT = """Feature: <b>Restrictions</b>
 
-##<b>NOTE:</b>
-##This Module Only Works In Groups
-##<b>Commands and Usage:</b>
+There Are 3 Types Of Restriction Modules Available In Diana Bot To Restrict User In Groups/Super Groups; Ban,Mute and Warn.
+
+Inorder To Use This Modules Diana Must Be An Andmin Of The Chat With Ban Users Permission.
+
+Click On The Below Buttons To Know More.."""
+
+    BANRES_TEXT = """<b>Commands and Usage:</b>
+
 ★ Ban Commands :
-• /ban - <code>Ban A User From Group By Replying Or Mentioning [If You Have Any Reasons,Type That After A Space.]</code>
+• /ban - <code>Ban A User From Group.[If You Have Any Reasons,Type That After A Space.]</code>
 • /kick - <code>Kick Out A User.</code>
 • /tban - <code>Ban A User For Some Period Of Time (1m/1h/1d/1w/).</code>
 • /unban - <code>Un Ban A User.</code>
+
+NOTE : <code>These Commands Can Be Used By Replying or Mentioning A User,And Most Importantly Any Of These Commands Can't Be Used Against An Admin Of The Group.</code>"""
+
+    MUTERES_TEXT = """<b>Commands and Usage:</b>
 
 ★ Mute Commands :
 • /mute - <code>Mute A User (By Mentioning Or Replying).</code>
 • /tmute - <code>Mute An User For A Period Of Time (1m/1h/1d/1w)</code>
 • /unmute  - <code>Un Mute A User.</code>
+
+NOTE : <code>These Commands Can Be Used By Replying or Mentioning A User,And Most Importantly Any Of These Commands Can't Be Used Against An Admin Of The Group.</code>"""
+
+    WARNRES_TEXT = """<b>Commands and Usage:</b>
 
 ★ Warn Commands :
 • /warn  -  <code>Warn A User By Mentioning Or Replying [eg: /warn @mention reason.]</code>
@@ -144,8 +157,9 @@ Name - {}
 • /nowarn - <code>Stop A Warning Filter.</code>
 • /warnlist - <code>List Of All Current Warn Filters.</code>
 • /warnlimit  - <code>Set A Limit For Warn,After Exceeding This Limit User Will Be Banned From Chat.</code>
-• /strongwarn True/False - <code>If True User Will Be Banned After Warning,Else Will be just kicked.</code>"""
+• /strongwarn True/False - <code>If True User Will Be Banned After Warning,Else Will be just kicked.</code>
 
+NOTE : <code>These Commands Can Be Used By Replying or Mentioning A User,And Most Importantly Any Of These Commands Can't Be Used Against An Admin Of The Group.</code>"""
     GREETINGS_TEXT = """Feature: <b>Greetings</b>
 
 <b>NOTE:</b>
