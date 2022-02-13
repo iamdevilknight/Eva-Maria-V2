@@ -107,7 +107,7 @@ This module only works for my admins
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
-LOG_TEXT_G = """#NewGroup
+    LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
@@ -120,7 +120,7 @@ Name - {}
 
 ## Pattishow Starts Here
 
-GREETINGS_TEXT = """Feature: <b>Greetings</b>
+    RESTRICTION_TEXT = """Feature: <b>Restrictions</b>
 
 <b>NOTE:</b>
 This Module Only Works In Groups
@@ -148,7 +148,7 @@ This Module Only Works In Groups
 • /warnlimit  - <code>Set A Limit For Warn,After Exceeding This Limit User Will Be Banned From Chat.</code>
 • /strongwarn True/False - <code>If True User Will Be Banned After Warning,Else Will be just kicked.</code>"""
 
-RESTRICTION_TEXT = """Feature: <b>Restrictions</b>
+    GREETINGS_TEXT = """Feature: <b>Greetings</b>
 
 <b>NOTE:</b>
 This Module Only Works In Groups
