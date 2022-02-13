@@ -417,6 +417,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
             InlineKeyboardButton('Auto Filter', callback_data='autofilter')
             ],[
+            InlineKeyboardButton('Restrictions', callback_data='restrictions'),
+            InlineKeyboardButton('Greetings', callback_data='greetings')
+            ],[
             InlineKeyboardButton('Connection', callback_data='coct'),
             InlineKeyboardButton('Extra Mods', callback_data='extra')
             ],[
@@ -515,6 +518,30 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+## Pattishow Stars Here
+
+elif query.data == "restrictions":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.RESTRICTION_TEXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+elif query.data == "greetings":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.GREETINGS_TEXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+
+## Pattishow Ends Here
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
