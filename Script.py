@@ -122,9 +122,11 @@ Name - {}
 
     RESTRICTION_TEXT = """Feature: <b>Restrictions</b>
 
-There Are 3 Types Of Restriction Modules Available In Diana Bot To Restrict User In Groups/Super Groups; Ban,Mute and Warn.
+There Are 3 Types Of Restriction Modules Available In Diana Bot To Restrict Users In Groups/Super Groups.
 
-Inorder To Use This Modules Diana Must Be An Andmin Of The Chat With Ban Users Permission.
+Ban,Mute and Warn.
+
+Inorder To Use This Modules Diana Must Be An Admin Of The Chat With Ban Users Permission.
 
 Click On The Below Buttons To Know More.."""
 
