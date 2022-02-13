@@ -110,7 +110,7 @@ This module only works for my admins
 
 ## Pattishow Starts Here
 
-RESTRICTION_TEXT = """Feature: <b>Restrictions</b>
+GREETINGS_TEXT = """Feature: <b>Greetings</b>
 
 <b>NOTE:</b>
 This Module Only Works In Groups
@@ -137,6 +137,22 @@ This Module Only Works In Groups
 • /warnlist - <code>List Of All Current Warn Filters.</code>
 • /warnlimit  - <code>Set A Limit For Warn,After Exceeding This Limit User Will Be Banned From Chat.</code>
 • /strongwarn True/False - <code>If True User Will Be Banned After Warning,Else Will be just kicked.</code>"""
+
+RESTRICTION_TEXT = """Feature: <b>Restrictions</b>
+
+<b>NOTE:</b>
+This Module Only Works In Groups
+
+<b>Commands and Usage:</b>
+
+● Welcome Commands :
+• /welcome on/off - <code>Enable/Disable Welcome Message.</code>
+• /setwelcome - <code>Set A Custom Message.</code>
+• /cleanwelcome on/off - <code>If On Then Deletes Previous Welcome Messages When A New Member Joins.</code>
+• /resetwelcome - <code>Reset The Welcome Message.</code>
+
+● Goodbye Commands :
+• /goodbye - <code>Same Usage And Args as Welcome Commands [Replace welcome with goodbye in above mentioned command]</code>"""
 
 ## Pattishow Ends Here
     LOG_TEXT_G = """#NewGroup
