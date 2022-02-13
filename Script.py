@@ -107,6 +107,38 @@ This module only works for my admins
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+
+## Pattishow Starts Here
+
+RESTRICTION_TEXT = """Feature: <b>Restrictions</b>
+
+<b>NOTE:</b>
+This Module Only Works In Groups
+
+<b>Commands and Usage:</b>
+
+● Ban Commands :
+• /ban - <code>Ban A User From Group By Replying Or Mentioning [If You Have Any Reasons,Type That After A Space.]</code>
+• /kick - <code>Kick Out A User.</code>
+• /tban - <code>Ban A User For Some Period Of Time (1m/1h/1d/1w/).</code>
+• /unban - <code>Un Ban A User.</code>
+
+● Mute Commands :
+• /mute - <code>Mute A User (By Mentioning Or Replying).</code>
+• /tmute - <code>Mute An User For A Period Of Time (1m/1h/1d/1w)</code>
+• /unmute  - <code>Un Mute A User.</code>
+
+● Warn Commands :
+• /warn  -  <code>Warn A User By Mentioning Or Replying [eg: /warn @mention reason.]</code>
+• /resetwarn - <code>Reset Warns Of A User.</code>
+• /warns - <code>Get A User's Number, And Reason Of Warnings,Can Be Used By Mentioning Or Replying</code>
+• /addwarn  - <code>Set Automated Warn Filter For Some Words.[eg: /setwarn ""wtf"" No Abusive Words Allowed Here 😠.]</code>
+• /nowarn - <code>Stop A Warning Filter.</code>
+• /warnlist - <code>List Of All Current Warn Filters.</code>
+• /warnlimit  - <code>Set A Limit For Warn,After Exceeding This Limit User Will Be Banned From Chat.</code>
+• /strongwarn True/False - <code>If True User Will Be Banned After Warning,Else Will be just kicked.</code>"""
+
+## Pattishow Ends Here
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
