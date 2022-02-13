@@ -520,8 +520,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "restrictions":
         buttons = [[
+            InlineKeyboardButton('Ban', callback_data='banres'),
+            InlineKeyboardButton('Warn', callback_data='warnres'),
+            InlineKeyboardButton('Mute', callback_data='muteres')
+            ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
-        ]]
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.RESTRICTION_TEXT,
@@ -535,6 +539,36 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.GREETINGS_TEXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "banres":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.BANRES_TEXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "warnres":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.WARNRES_TEXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "muteres":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.MUTERES_TEXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
