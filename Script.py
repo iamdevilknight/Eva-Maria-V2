@@ -107,6 +107,16 @@ This module only works for my admins
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+LOG_TEXT_G = """#NewGroup
+Group = {}(<code>{}</code>)
+Total Members = <code>{}</code>
+Added By - {}
+"""
+    LOG_TEXT_P = """#NewUser
+ID - <code>{}</code>
+Name - {}
+"""
+
 
 ## Pattishow Starts Here
 
@@ -155,12 +165,3 @@ This Module Only Works In Groups
 • /goodbye - <code>Same Usage And Args as Welcome Commands [Replace welcome with goodbye in above mentioned command]</code>"""
 
 ## Pattishow Ends Here
-    LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
-"""
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
-"""
