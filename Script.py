@@ -117,18 +117,18 @@ This Module Only Works In Groups
 
 <b>Commands and Usage:</b>
 
-● Ban Commands :
+★ Ban Commands :
 • /ban - <code>Ban A User From Group By Replying Or Mentioning [If You Have Any Reasons,Type That After A Space.]</code>
 • /kick - <code>Kick Out A User.</code>
 • /tban - <code>Ban A User For Some Period Of Time (1m/1h/1d/1w/).</code>
 • /unban - <code>Un Ban A User.</code>
 
-● Mute Commands :
+★ Mute Commands :
 • /mute - <code>Mute A User (By Mentioning Or Replying).</code>
 • /tmute - <code>Mute An User For A Period Of Time (1m/1h/1d/1w)</code>
 • /unmute  - <code>Un Mute A User.</code>
 
-● Warn Commands :
+★ Warn Commands :
 • /warn  -  <code>Warn A User By Mentioning Or Replying [eg: /warn @mention reason.]</code>
 • /resetwarn - <code>Reset Warns Of A User.</code>
 • /warns - <code>Get A User's Number, And Reason Of Warnings,Can Be Used By Mentioning Or Replying</code>
