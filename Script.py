@@ -122,11 +122,9 @@ Name - {}
 
     RESTRICTION_TEXT = """Feature: <b>Restrictions</b>
 
-<b>NOTE:</b>
-This Module Only Works In Groups
-
-<b>Commands and Usage:</b>
-
+##<b>NOTE:</b>
+##This Module Only Works In Groups
+##<b>Commands and Usage:</b>
 ★ Ban Commands :
 • /ban - <code>Ban A User From Group By Replying Or Mentioning [If You Have Any Reasons,Type That After A Space.]</code>
 • /kick - <code>Kick Out A User.</code>
