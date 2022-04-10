@@ -3,7 +3,8 @@ class script(object):
 
 <b><i>I'm An Advanced Group Managing bot Created For @MovieJunction 🔥
 
-Hit /Help To Know More...! 🙊</b></i>"""
+## Hit /Help To Know More...! 🙊
+</b></i>"""
     HELP_TXT = """Hey {}
 Here Is A Brief Details About Some of the Features Of Mine..."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
