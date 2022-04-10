@@ -1,10 +1,7 @@
 class script(object):
     START_TXT = """<b>Hey {} !</b>
 
-<b><i>I'm An Advanced Group Managing bot Created For @MovieJunction 🔥
-
-## Hit /Help To Know More...! 🙊
-</b></i>"""
+<b><i>I'm An Advanced Group Managing bot Created For @MovieJunction 🔥</b></i>"""
     HELP_TXT = """Hey {}
 Here Is A Brief Details About Some of the Features Of Mine..."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -99,8 +96,8 @@ This module only works for my admins
 • /chats - <code>to get list of the my chats and ids </code>
 • /leave  - <code>to leave from a chat.</code>
 • /disable  -  <code>do disable a chat.</code>
-• /ban  - <code>to ban a user.</code>
-• /unban  - <code>to unban a user.</code>
+• /block  - <code>to block a user from using diana.</code>
+• /unblock  - <code>to unblock a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
@@ -145,7 +142,7 @@ NOTE : <code>These Commands Can Be Used By Replying or Mentioning A User,And Mos
 
 ★ Mute Commands :
 • /mute - <code>Mute A User (By Mentioning Or Replying).</code>
-• /tmute - <code>Mute An User For A Period Of Time (1m/1h/1d/1w)</code>
+• /tmute - <code>Mute A User For A Period Of Time (1m/1h/1d/1w)</code>
 • /unmute  - <code>Un Mute A User.</code>
 
 NOTE : <code>These Commands Can Be Used By Replying or Mentioning A User,And Most Importantly Any Of These Commands Can't Be Used Against An Admin Of The Group.</code>"""
@@ -177,6 +174,6 @@ This Module Only Works In Groups
 • /resetwelcome - <code>Reset The Welcome Message.</code>
 
 ● Goodbye Commands :
-• /goodbye - <code>Same Usage And Args as Welcome Commands [Replace welcome with goodbye in above mentioned command]</code>"""
+• /goodbye - <code>Same Usage And Args as Welcome Commands [Replace welcome with goodbye in above mentioned commands]</code>"""
 
 ## Pattishow Ends Here
